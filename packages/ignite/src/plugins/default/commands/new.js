@@ -46,10 +46,9 @@ module.exports = async function (context) {
   info('Install all those unholy goodies')
   await system.run('yarn || npm i')
 
-  info('Link up all those unholy goodies')
+  // info('Link up all those unholy goodies')
   // the following never returns - without await it keeps the shell forever!
-  // const childProcess = require('child_process')
-  // await system.run('react-native link')
+  // system.run('react-native link')
 
   info('Add ignite basic generators')
   await system.run('ignite add basic-generators')
