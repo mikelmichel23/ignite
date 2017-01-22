@@ -37,23 +37,31 @@ module.exports = async function (context) {
   info('Creating new RN project')
   // TODO make sure `react-antive --version has react-native-cli 2.x otherwise failure`
   await system.run(`react-native init ${projectName} --version 0.38.0`)
+
   process.chdir(projectName)
+
   info('Add ignite basic structure with unholy')
   await system.run(`ignite add basic-structure ${projectName} --unholy`)
+
   info('Install all those unholy goodies')
   await system.run('yarn || npm i')
-  // info('Link up all those unholy goodies')
+
+  info('Link up all those unholy goodies')
   // the following never returns - without await it keeps the shell forever!
-  // system.run('react-native link')
+  // const childProcess = require('child_process')
+  // await system.run('react-native link')
+
   info('Add ignite basic generators')
   await system.run('ignite add basic-generators')
 
   // now run install of Ignite Plugins
   if (answers['dev-screens']) {
+    info('Adding developer screens')
     await system.run('ignite add dev-screens')
   }
 
   if (answers['vector-icons'] === 'react-native-vector-icons') {
+    info('Adding vector icons')
     await system.run('ignite add vector-icons')
   }
 
