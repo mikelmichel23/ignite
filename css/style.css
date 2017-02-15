@@ -1011,7 +1011,7 @@ footer .copyright{
 		margin: 0 8px;
 	}
 	.footer-flame {
-		background: url('../images/ignite-fire-small.png') no-repeat bottom center;
+		background: url('../img/ignite-fire-small.png') no-repeat bottom center;
 	}
 }
 @media (max-width: 399px) {
@@ -1056,7 +1056,7 @@ footer .copyright{
 		margin: 0 2px;
 	}
 	.footer-flame {
-		background: url('../images/ignite-fire-small.png') no-repeat bottom center;
+		background: url('../img/ignite-fire-small.png') no-repeat bottom center;
 	}
 }
 @media (min-width: 668px) and (max-width: 767px){
@@ -1101,11 +1101,11 @@ footer .copyright{
 		background-size: cover;
 	}
 	header{
-		background: #102129 url('../images/bg-image.jpg') no-repeat top center;
+		background: #102129 url('../img/bg-image.jpg') no-repeat top center;
 		background-size: cover;
 	}
 	.footer-flame {
-		background: url('../images/ignite-fire.png') no-repeat bottom center;
+		background: url('../img/ignite-fire.png') no-repeat bottom center;
 	}
 }
 @media (-webkit-min-device-pixel-ratio: 1.1), (min-resolution: 120dppx){
@@ -1118,19 +1118,19 @@ footer .copyright{
 		background-size: cover;
 	}
 	header{
-		background: #102129 url('../images/bg-image@2x.jpg') no-repeat top center;
+		background: #102129 url('../img/bg-image@2x.jpg') no-repeat top center;
 		background-size: cover;
 	}
 	.footer-flame {
-		background: url('../images/ignite-fire@2x.png') no-repeat bottom center;
+		background: url('../img/ignite-fire@2x.png') no-repeat bottom center;
 	}
 }
 @media (-webkit-min-device-pixel-ratio: 1.1) and (max-width: 399px), (min-resolution: 120dppx) and (max-width: 399px){
 	header{
-		background: #102129 url('../images/bg-image.jpg') no-repeat top center;
+		background: #102129 url('../img/bg-image.jpg') no-repeat top center;
 		background-size: cover;
 	}
 	.footer-flame {
-		background: url('../images/ignite-fire.png') no-repeat bottom center;
+		background: url('../img/ignite-fire.png') no-repeat bottom center;
 	}
 }
