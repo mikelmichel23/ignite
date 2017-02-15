@@ -61,16 +61,18 @@ ExamplesRegistry.addPluginExample('RadioButtons', () =>
 )
 ```
 
-### Publish your npm module
-
-```
-npm publish
-```
-
-### Add the plugin to your Ignite application
+### Add the plugin to the Ignite application
 
 From within `OurApp/ignite/plugins`, we run: 
 
 ```
 ignite add radio-buttons
 ```
+
+### ??? Copy the plugin example to `OurApp/ignite/Examples/Components/` ???
+
+### Import plugin in `PluginExamplesScreen.js`
+
+### Run `npm install`
+
+###
