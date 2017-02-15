@@ -18,6 +18,9 @@
 14. Media Queries / @media
 -------------------------------------------------------------------*/
 
+font-family: 'Droid Serif', serif;
+font-family: 'Montserrat', sans-serif;
+
 body{
 	font-family: Lato, sans-serif;
 	font-weight: 300;
@@ -30,10 +33,55 @@ h2, h3, h4{
 	font-weight: 300;
 }
 h1{
-	font-weight: 100;
-	font-size: 62px;
-	color: #fff;
-	margin-top: 112px;
+	font-family: 'Montserrat';
+	font-size: 50px;
+	color: #FFFFFF ;
+	letter-spacing: 0.5px;
+	line-height: 65px;
+	text-align: center;
+}
+p.subtext {
+	font-family: 'DroidSerif';
+	font-size: 18px;
+	color: #BFAACB;
+	letter-spacing: 0;
+	line-height: 32px;
+	text-align: center;
+	max-width: 600px;
+	margin: auto auto;
+	margin-bottom: 50px;
+}
+.button-link-wrapper {
+	margin: 0 auto;
+	text-align: center;
+}
+a.button-link {
+	font-family: "Montserrat";
+	font-size: 16px;
+	color: #FFFFFF ;
+	letter-spacing: 1px;
+	border: 2px solid #BFAACB;
+	border-radius: 4px;
+	padding: 19px 32px 16px;
+	margin: 15px 10px;
+	display: inline-block;
+	text-align: center;
+	min-width: 260px;
+	text-transform: uppercase;
+}
+a.button-link img.button-link-icon {
+	margin-right: 10px;
+	margin-top: -4px
+}
+a.button-link:hover {
+	color: #ffffff;
+	background-color: #BFAACB;
+}
+.footer-flame {
+	min-width: 580px;
+	min-height: 171px;
+	position: absolute;
+	bottom: 0px;
 }
 h2{
 	font-size: 44px;
@@ -188,7 +236,7 @@ input:focus{
 }
 #menu-bar .logo{
 	font-size: 50px;
-	float: left;
+	float: right;
 }
 #menu-bar .logo img{
 	position: relative;
@@ -283,8 +331,8 @@ input:focus{
 header{
 	background-color: #102129;
 	background-size: cover;
-	min-height: 568px;
-	max-height: 900px;
+	min-height: 100%;
+	max-height: 100%;
 	position: relative;
 	overflow: hidden;
 }
@@ -293,7 +341,7 @@ header .container{
 	z-index: 3;
 }
 #header-img{
-	margin: 0 auto -400px;
+	margin: 0 auto;
 }
 div > a.btn:nth-of-type(2){
 	margin-left: 30px;
@@ -962,6 +1010,9 @@ footer .copyright{
 	footer #social-links .icon{
 		margin: 0 8px;
 	}
+	.footer-flame {
+		background: url('../images/ignite-fire-small.png') no-repeat bottom center;
+	}
 }
 @media (max-width: 399px) {
 	#header-btn{
@@ -1004,6 +1055,9 @@ footer .copyright{
 	footer #social-links .icon{
 		margin: 0 2px;
 	}
+	.footer-flame {
+		background: url('../images/ignite-fire-small.png') no-repeat bottom center;
+	}
 }
 @media (min-width: 668px) and (max-width: 767px){
 	h1{
@@ -1034,7 +1088,7 @@ footer .copyright{
 		margin-bottom: 80px;
 	}
 	header{
-		min-height: 700px;
+		min-height: 100%;
 	}
 }
 @media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 119.9dppx){
@@ -1047,8 +1101,11 @@ footer .copyright{
 		background-size: cover;
 	}
 	header{
-		background: #102129 url('../img/header.jpg') no-repeat top center;
+		background: #102129 url('../images/bg-image.jpg') no-repeat top center;
 		background-size: cover;
+	}
+	.footer-flame {
+		background: url('../images/ignite-fire.png') no-repeat bottom center;
 	}
 }
 @media (-webkit-min-device-pixel-ratio: 1.1), (min-resolution: 120dppx){
@@ -1061,13 +1118,19 @@ footer .copyright{
 		background-size: cover;
 	}
 	header{
-		background: #102129 url('../img/header@2x.jpg') no-repeat top center;
+		background: #102129 url('../images/bg-image@2x.jpg') no-repeat top center;
 		background-size: cover;
+	}
+	.footer-flame {
+		background: url('../images/ignite-fire@2x.png') no-repeat bottom center;
 	}
 }
 @media (-webkit-min-device-pixel-ratio: 1.1) and (max-width: 399px), (min-resolution: 120dppx) and (max-width: 399px){
 	header{
-		background: #102129 url('../img/header-sm.jpg') no-repeat top center;
+		background: #102129 url('../images/bg-image.jpg') no-repeat top center;
 		background-size: cover;
+	}
+	.footer-flame {
+		background: url('../images/ignite-fire.png') no-repeat bottom center;
 	}
 }
