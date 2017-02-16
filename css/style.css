@@ -41,7 +41,7 @@ h1{
 	text-align: center;
 }
 p.subtext {
-	font-family: 'DroidSerif';
+	font-family: 'Droid Serif';
 	font-size: 18px;
 	color: #BFAACB;
 	letter-spacing: 0;
@@ -78,10 +78,11 @@ a.button-link:hover {
 	background-color: #BFAACB;
 }
 .footer-flame {
-	min-width: 580px;
-	min-height: 171px;
+	min-width: 100%;
+	min-height: 342px;
 	position: absolute;
 	bottom: 0px;
+	content: ' ';
 }
 h2{
 	font-size: 44px;
