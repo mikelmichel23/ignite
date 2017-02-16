@@ -43,8 +43,11 @@ The `index.js` is the entrypoint for your plugin and provides the add/remove fun
 
 1. Change the `NPM_MODULE_NAME` to `react-native-radio-buttons`
 2. Since this npm package does not require a linking step, we will change `ignite.addModule` to have `link: false` and `ignite.removeModule` to have `unlink: false`
+3. Make sure `EXAMPLE_FILE` matches the filename under `templates`
 
 ### Add content to the example template
+
+`templates/RadioButtonsExample.js.ejs`
 
 ```
 // @flow
@@ -63,13 +66,13 @@ ExamplesRegistry.addPluginExample('RadioButtons', () =>
 
 ### Add the plugin to the Ignite application
 
-From within the root of `OurApp`, we run:
+Since we are still developing our plugin, and it doesn't exist on npm yet, From within the root of `OurApp`, we run:
 
 ```
-ignite add /path/to/ignite-radio-buttons
+ignite add ~/path/to/ignite-radio-buttons
 ```
 
-If we have already published our new plugin to npm, we would run instead: 
+If we had already published our new plugin to npm as `ignite-radio-buttons`, we would instead run:
 
 ```
 ignite add radio-buttons
