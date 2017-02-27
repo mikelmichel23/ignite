@@ -1,6 +1,20 @@
 # Ignite Documentation
 
-This is a list of documentation ideas.
+#### Quick Start
+
+1. [Getting Started with Ignite 2.0 using `npm install`](https://github.com/infinitered/ignite/blob/master/docs/quick-start/getting-started.md)
+1. [Getting Started with Ignite 2.0 Alpha using `git clone`](https://github.com/infinitered/ignite/blob/master/docs/quick-start/getting-started-alpha.md)
+1. [Ignite CLI Commands](https://github.com/infinitered/ignite/blob/master/docs/quick-start/ignite-commands.md)
+1. [`ignite new` Project Structure](https://github.com/infinitered/ignite/blob/master/docs/quick-start/project-structure.md)
+
+#### Advanced Guides
+
+1. [Creating an Ignite Generator](https://github.com/infinitered/ignite/blob/master/docs/advanced-guides/creating-generators.md)
+1. [Creating an Ignite Plugin](https://github.com/infinitered/ignite/blob/master/docs/advanced-guides/creating-plugins.md)
+1. [Contributing to Ignite](https://github.com/infinitered/ignite/blob/master/docs/advanced-guides/contributing.md)
+
+
+<!-- This is a list of documentation ideas.
 
 ## Advanced Guides
 
@@ -22,4 +36,4 @@ This is a list of documentation ideas.
 * Use and adding Generators
 * Adding plugins
 * Editing generators and the templates they use
-* Ignite commands
+* Ignite commands -->
